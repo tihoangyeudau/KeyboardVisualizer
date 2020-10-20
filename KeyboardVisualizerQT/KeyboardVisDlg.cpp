@@ -26,7 +26,7 @@ KeyboardVisDlg::KeyboardVisDlg(QWidget *parent) : QMainWindow(parent), ui(new Ke
 
     ui->setupUi(this);
 
-    std::string titleString = "Keyboard Visualizer ";
+    std::string titleString = "RML Visualizer ";
     titleString.append(VERSION_STRING);
     setWindowTitle(titleString.c_str());
 
@@ -41,7 +41,7 @@ KeyboardVisDlg::KeyboardVisDlg(QWidget *parent) : QMainWindow(parent), ui(new Ke
 
     trayIcon = new QSystemTrayIcon(this);
     trayIcon->setIcon(icon);
-    trayIcon->setToolTip("Keyboard Visualizer");
+    trayIcon->setToolTip("RML Visualizer");
     trayIcon->setContextMenu(myTrayIconMenu);
     trayIcon->show();
 
@@ -191,7 +191,7 @@ void KeyboardVisDlg::SetVisualizer(Visualizer* v)
 
     ui->comboBox_Average_Mode->blockSignals(true);
     ui->comboBox_Average_Mode->addItem("Binning");
-    ui->comboBox_Average_Mode->addItem("Low Pass");
+    ui->comboBox_Average_Mode->addItem("Hạ tần");
     ui->comboBox_Average_Mode->setCurrentIndex(vis_ptr->avg_mode);
     ui->comboBox_Average_Mode->blockSignals(false);
 
@@ -386,7 +386,7 @@ void Ui::KeyboardVisDlg::UpdateOpenRGBClientList()
     ui->tree_Devices->header()->setStretchLastSection(false);
     ui->tree_Devices->header()->setSectionResizeMode(0, QHeaderView::Stretch);
     ui->tree_Devices->setColumnWidth(1, 100);
-    ui->tree_Devices->setHeaderLabels(QStringList() << "Connected Clients" << "");
+    ui->tree_Devices->setHeaderLabels(QStringList() << "Máy khách đã kết nối" << "");
 
     /*-----------------------------------------------------*\
     | Create a signal mapper for Disconnect buttons         |
@@ -411,7 +411,7 @@ void Ui::KeyboardVisDlg::UpdateOpenRGBClientList()
         /*-----------------------------------------------------*\
         | Create a Disconnect button for this client and map it |
         \*-----------------------------------------------------*/
-        QPushButton* new_button = new QPushButton( "Disconnect" );
+        QPushButton* new_button = new QPushButton( "Hủy kết nối" );
         ui->tree_Devices->setItemWidget(new_top_item, 1, new_button);
 
         connect(new_button, SIGNAL(clicked()), signalMapper, SLOT(map()));

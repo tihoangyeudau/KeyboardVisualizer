@@ -1596,7 +1596,7 @@ NetworkClient * Visualizer::OpenRGBConnect(const char * ip, unsigned short port)
 
     rgb_clients.push_back(rgb_client);
 
-    std::string titleString = "Keyboard Visualizer ";
+    std::string titleString = "RML Visualizer ";
     titleString.append(VERSION_STRING);
 
     rgb_client->SetIP(ip);

@@ -1,8 +1,8 @@
 [Desktop Entry]
 Type=Application
 Encoding=UTF-8
-Name=Keyboard Visualizer
-Comment=Control RGB lighting
+Name=RML Visualizer
+Comment=Rainbow Music Led
 Exec=KeyboardVisualizer
 Icon=KeyboardVisualizer
 Terminal=false

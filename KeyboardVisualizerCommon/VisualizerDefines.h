@@ -75,27 +75,27 @@ enum
 
 const char * const visualizer_pattern_labels[VISUALIZER_NUM_PATTERNS] =
 {
-    "Black",
-    "White",
-    "Red",
-    "Orange",
-    "Yellow",
-    "Green",
-    "Cyan",
-    "Blue",
-    "Purple",
-    "Green/Yellow/Red",
-    "Green/White/Red",
-    "Blue/Cyan/White",
-    "Red/White/Blue",
-    "Rainbow Bars",
-    "Rainbow Bars Inverse",
-    "Original",
-    "Rainbow",
-    "Color Wheel",
-    "Color Wheel 2",
-    "Spectrum Cycle",
-    "Sinusoidal Cycle"
+    "Đen",
+    "Trắng",
+    "Đỏ",
+    "Cam",
+    "Vàng",
+    "Xanh lá",
+    "Xanh lơ",
+    "Xanh lam",
+    "Tím",
+    "Xanh lá/Vàng/Đỏ",
+    "Xanh lá/Trắng/Đỏ",
+    "Xanh lam/Xanh lơ/Trắng",
+    "Đỏ/Trắng/Xanh lam",
+    "Sọc cầu vồng",
+    "Sọc cầu vồng đảo ngược",
+    "Nguyên bản",
+    "Cầu vồng",
+    "Bánh xe mầu",
+    "Bánh xe mầu 2",
+    "Chu kỳ phổ",
+    "Chu kỳ hình sin"
 };
 
 typedef unsigned int VISUALIZER_SINGLE_COLOR;
@@ -122,18 +122,18 @@ enum
 
 const char * const visualizer_single_color_labels[VISUALIZER_NUM_SINGLE_COLOR] =
 {
-    "Black",
-    "White",
-    "Red",
-    "Orange",
-    "Yellow",
-    "Green",
-    "Cyan",
-    "Blue",
-    "Purple",
-    "Background",
-    "Follow Background",
-    "Follow Foreground"
+    "Đen",
+    "Trắng",
+    "Đỏ",
+    "Cam",
+    "Vàng",
+    "Xanh lá",
+    "Xanh lơ",
+    "Xanh lam",
+    "Tím",
+    "Nền",
+    "Theo nền",
+    "Theo tiền cảnh"
 };
 
 typedef struct

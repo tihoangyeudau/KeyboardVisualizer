@@ -11,14 +11,14 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Keyboard Visualizer</string>
+   <string>RML Visualizer</string>
   </property>
   <widget class="QWidget" name="centralWidget">
    <layout class="QGridLayout" name="gridLayout">
     <item row="0" column="3">
      <widget class="QLabel" name="label_FFT_Window_Mode">
       <property name="text">
-       <string>FFT Window Mode</string>
+       <string>Chế độ cửa sổ FFT</string>
       </property>
      </widget>
     </item>
@@ -72,7 +72,7 @@
     <item row="9" column="0">
      <widget class="QLabel" name="label_Visualization_Preview">
       <property name="text">
-       <string>Visualization Preview</string>
+       <string>Xem trước hiệu ứng</string>
       </property>
      </widget>
     </item>
@@ -86,7 +86,7 @@
     <item row="5" column="0">
      <widget class="QLabel" name="label_Normalization_Offset">
       <property name="text">
-       <string>Normalization Offset</string>
+       <string>Chênh lệch chuẩn hóa</string>
       </property>
      </widget>
     </item>
@@ -96,7 +96,7 @@
     <item row="2" column="0">
      <widget class="QLabel" name="label_Average_Size">
       <property name="text">
-       <string>Average Size</string>
+       <string>Kích thước trung bình</string>
       </property>
      </widget>
     </item>
@@ -112,7 +112,7 @@
     <item row="9" column="4">
      <widget class="QPushButton" name="pushButton_Save_Settings">
       <property name="text">
-       <string>Save Settings</string>
+       <string>Lưu cài đặt</string>
       </property>
      </widget>
     </item>
@@ -126,14 +126,14 @@
     <item row="6" column="0">
      <widget class="QLabel" name="label_Normalization_Scale">
       <property name="text">
-       <string>Normalization Scale</string>
+       <string>Quy mô chuẩn hóa</string>
       </property>
      </widget>
     </item>
     <item row="4" column="0">
      <widget class="QLabel" name="label_Delay">
       <property name="text">
-       <string>Delay (ms)</string>
+       <string>Độ trễ (mili giây)</string>
       </property>
      </widget>
     </item>
@@ -147,21 +147,21 @@
     <item row="1" column="0">
      <widget class="QLabel" name="label_Background_Brightness">
       <property name="text">
-       <string>Background Brightness</string>
+       <string>Độ sáng nền</string>
       </property>
      </widget>
     </item>
     <item row="1" column="3">
      <widget class="QLabel" name="label_Background_Mode">
       <property name="text">
-       <string>Background Mode</string>
+       <string>Chế độ nền</string>
       </property>
      </widget>
     </item>
     <item row="3" column="0">
      <widget class="QLabel" name="label_Decay">
       <property name="text">
-       <string>Decay (% per step)</string>
+       <string>Giảm dần (% mỗi bước)</string>
       </property>
      </widget>
     </item>
@@ -171,7 +171,7 @@
     <item row="8" column="3">
      <widget class="QLabel" name="label_Silent_Background">
       <property name="text">
-       <string>Silent Background</string>
+       <string>Không nền</string>
       </property>
      </widget>
     </item>
@@ -181,7 +181,7 @@
     <item row="7" column="3">
      <widget class="QLabel" name="label_Reactive_Background">
       <property name="text">
-       <string>Reactive Background</string>
+       <string>Hiệu ứng nền</string>
       </property>
      </widget>
     </item>
@@ -195,7 +195,7 @@
     <item row="5" column="3">
      <widget class="QLabel" name="label_Audio_Device">
       <property name="text">
-       <string>Audio Device</string>
+       <string>Thiết bị âm thanh</string>
       </property>
      </widget>
     </item>
@@ -216,14 +216,14 @@
     <item row="8" column="0">
      <widget class="QLabel" name="label_Background_Timeout">
       <property name="text">
-       <string>Background Timeout</string>
+       <string>Thời gian chờ nền</string>
       </property>
      </widget>
     </item>
     <item row="7" column="0">
      <widget class="QLabel" name="label_Filter_Constant">
       <property name="text">
-       <string>Filter Constant</string>
+       <string>Lọc hằng số</string>
       </property>
      </widget>
     </item>
@@ -233,7 +233,7 @@
     <item row="4" column="3">
      <widget class="QLabel" name="label_Average_Mode">
       <property name="text">
-       <string>Average Mode</string>
+       <string>Chế độ trung bình</string>
       </property>
      </widget>
     </item>
@@ -257,21 +257,21 @@
     <item row="0" column="0">
      <widget class="QLabel" name="label_Amplitude">
       <property name="text">
-       <string>Amplitude (%)</string>
+       <string>Biên độ (%)</string>
       </property>
      </widget>
     </item>
     <item row="3" column="3">
      <widget class="QLabel" name="label_Single_Color_Mode">
       <property name="text">
-       <string>Single Color Mode</string>
+       <string>Chế độ màu đơn</string>
       </property>
      </widget>
     </item>
     <item row="6" column="3">
      <widget class="QLabel" name="label_Animation_Speed">
       <property name="text">
-       <string>Animation Speed</string>
+       <string>Tốc độ hiệu ứng</string>
       </property>
      </widget>
     </item>
@@ -287,7 +287,7 @@
     <item row="2" column="3">
      <widget class="QLabel" name="label_Foreground_Mode">
       <property name="text">
-       <string>Foreground Mode</string>
+       <string>Chế độ tiền cảnh</string>
       </property>
      </widget>
     </item>
@@ -297,21 +297,21 @@
     <item row="10" column="3">
      <widget class="QLabel" name="label_Port">
       <property name="text">
-       <string>Port</string>
+       <string>Cổng</string>
       </property>
      </widget>
     </item>
     <item row="11" column="4">
      <widget class="QPushButton" name="button_Connect">
       <property name="text">
-       <string>Connect</string>
+       <string>Kết nối</string>
       </property>
      </widget>
     </item>
     <item row="11" column="0" colspan="4">
      <widget class="QLabel" name="label_GitLab">
       <property name="text">
-       <string>https://gitlab.com/CalcProgrammer1/KeyboardVisualizer</string>
+       <string>https://www.facebook.com/rainbowmusicled</string>
       </property>
      </widget>
     </item>
